@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -94,5 +95,26 @@ body{
     #gameOver{
         text-align: center;
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .card{
+        width: 55px;
+        height: 55px;
+    }
+
+    img{
+        width: 55px;
+        height: 55px;
+    }
+
+    #gameOver{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .card_back{
+        font-size: 20px;
     }
 }
